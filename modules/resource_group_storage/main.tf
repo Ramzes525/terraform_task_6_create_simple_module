@@ -11,7 +11,3 @@ resource "azurerm_storage_account" "example" {
   account_replication_type = "LRS"
 }
 
-module "regions" {
-  source  = "Azure/regions/azurerm"
-  version = "0.8.2"
-}

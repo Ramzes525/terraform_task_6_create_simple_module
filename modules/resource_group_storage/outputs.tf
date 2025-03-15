@@ -6,6 +6,3 @@ output "storage_account_id" {
   value = azurerm_storage_account.example.id
 }
 
-output "regions" {
-  value = module.regions.regions
-}
